@@ -9,7 +9,7 @@ results such as phoronix, fio, ioping, and iozone into simple results
 that can be easily compared between cloud providers.
 
 ## Requirements ##
-* Ubuntu Precise 12.04
+* Ubuntu Precise 14.04
 * Python 2.7+
 
 ## How to use ##
