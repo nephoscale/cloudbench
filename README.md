@@ -17,7 +17,7 @@ that can be easily compared between cloud providers.
 To run this utility and install all dependencies simply run the following:
 
 ```
-$ curl https://raw.githubusercontent.com/nephoscale/nephoscale-cloudbench/master/run.sh | bash
+$ curl https://raw.githubusercontent.com/nephoscale/cloudbench/master/run.sh | bash
 ```
 
 or you can clone this repository and run it:
