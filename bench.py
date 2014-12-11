@@ -55,7 +55,7 @@ REQUIRED_PHORONIX_TESTS = (
 REQUIRED_FIO_TESTS = (
     # only one result is supported in re.compile
     # test_name, fio_hdr, fio_rw, fio_blocksize, fio_ioengine, regexp
-    ('FIO random writes using 8k blocks',    'random-write', 'randwrite',    '4k',   'sync', re.compile('write.+iops=(\d+).+')),
+    ('FIO random writes using 4k blocks',    'random-write', 'randwrite',    '4k',   'sync', re.compile('write.+iops=(\d+).+')),
     ('FIO random reads using 4k blocks',     'random-read',  'randread',     '4k',   False,  re.compile('read.+iops=(\d+).+')),
     # not very reliable even with Direct I/O
     # ('FIO sequential reads using 16 blocks', 'seq-read',     'read',         '16k',  False,  re.compile('read.+iops=(\d+).+'))
